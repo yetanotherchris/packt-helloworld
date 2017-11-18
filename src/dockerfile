@@ -1,5 +1,5 @@
 ﻿FROM microsoft/dotnet
-MAINTAINER Chris Small for Pakt
+MAINTAINER Chris Small for Packt
 
 RUN mkdir /app
 COPY ./bin/Release/netcoreapp2.0/publish /app
